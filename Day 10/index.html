@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Topic1">
+            <h1 id="heading1">Event Listener :</h1>
+            <ul>
+                <li class="done">Click</li>
+                <li class="done">Mouse Enter</li>
+                <li class="done">Mouse Leave</li>
+            </ul>
+        </div>
+        <div class="Topic2">
+            <h1 id="heading2">Importnant Topics</h1>
+            <ul>
+                <li class="done">Try Catch</li>
+                <li class="done">Promise : Pending, Resolve, Reject</li>
+                <li>Async</li>
+                <li>Fetch API</li>
+            </ul>
+        </div>
+    </div>
+    <div class="eventlistener">
+        <h2 id="counter">0</h2>
+        <button onmouseenter="incrementValue()">Increase Value</button>
+        <button onclick="decValue()">Decrease Value</button>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.done {
+    color: blue;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+button{
+    margin-left: 40px;
+}
+
+h1{
+    margin-left: 40px;
+}
+
+#counter {
+    margin-left: 160px;
+}
+
+ul {
+    margin-left: 20px;
+}
